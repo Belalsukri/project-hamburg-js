@@ -1,0 +1,934 @@
+
+
+{
+    "@schemaLocation": "http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd http://www.deegree.org/app http://geoportal-hamburg.de, geodienste.hamburg.de/fachdaten_h_m/services/wfs_hh_krankenhaeuser?SERVICE=WFS&VERSION=1.1.0&REQUEST=DescribeFeatureType&OUTPUTFORMAT=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&TYPENAME=app:krankenhaeuser_hh&NAMESPACE=xmlns(app=http%3A%2F%2Fwww.deegree.org%2Fapp)",
+    "@timeStamp": "2020-04-19T07:42:29Z",
+    "featureMember": [
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_27",
+             "kh_nummer": "52",
+             "name": "ATOS Klinik Fleetinsel Hamburg",
+             "strasse": "Admiralitätsstraße 4",
+             "ort": "20459 Hamburg",
+             "homepage": "http://www.klinik-fleetinsel.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/4384370/fleetinsel.html",
+             "anzahl_planbetten": "27",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_27_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "565270.918 5933765.972"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_21",
+             "kh_nummer": "90",
+             "name": "Universitäres Herz- und Gefäßzentrum UKE Hamburg",
+             "strasse": "Martinistraße 52",
+             "ort": "20251 Hamburg",
+             "homepage": "http://www.uhz.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1144492/herzzentrum.html",
+             "anzahl_planbetten": "270",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Eingeschränkt",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "03.02.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_21_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "564559.690 5938588.471"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_23",
+             "kh_nummer": "02",
+             "name": "Asklepios Klinik St. Georg",
+             "strasse": "Lohmühlenstraße 5",
+             "ort": "20099 Hamburg",
+             "homepage": "http://www.asklepios.com/sanktgeorg",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/2709558/stgeorg.html",
+             "anzahl_planbetten": "691",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "68",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_23_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "567400.712 5935052.146"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_0",
+             "kh_nummer": "07c",
+             "name": "Asklepios Klinik Nord - Wandsbek (Psychiatrie)",
+             "strasse": "Jüthornstraße 71",
+             "ort": "22043 Hamburg",
+             "homepage": "http://www.asklepios.com/hamburg/nord/psychiatrie-wandsbek/",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1143358/nord.html",
+             "anzahl_planbetten": "130",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "45",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_0_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "571958.877 5936133.060"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_1",
+             "kh_nummer": "14a",
+             "name": "Albertinen-Krankenhaus",
+             "strasse": "Süntelstraße 11a",
+             "ort": "22457 Hamburg",
+             "homepage": "http://www.albertinen.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1170932/albertinen.html",
+             "anzahl_planbetten": "605",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "30",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Perinatalzentrum Level 2",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_1_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "559875.673 5942894.742"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_2",
+             "kh_nummer": "31",
+             "name": "Facharztklinik Hamburg",
+             "strasse": "Martinistraße 78",
+             "ort": "20251 Hamburg",
+             "homepage": "http://www.facharztklinik-hamburg.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1243384/facharztklinik.html",
+             "anzahl_planbetten": "50",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_2_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "564418.835 5938122.552"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_3",
+             "kh_nummer": "26",
+             "name": "Agaplesion Diakonieklinikum Hamburg",
+             "strasse": "Hohe Weide 17",
+             "ort": "20259 Hamburg",
+             "homepage": "http://www.d-k-h.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1180368/diakonieklinikum.html",
+             "anzahl_planbetten": "388",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "20",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Geburtsklinik",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_3_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "563903.182 5936206.832"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_4",
+             "kh_nummer": "19",
+             "name": "Asklepios Westklinikum Hamburg",
+             "strasse": "Suurheid 20",
+             "ort": "22559 Hamburg",
+             "homepage": "https://www.asklepios.com/hamburg/westklinikum/",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1244080/westklinikum.html",
+             "anzahl_planbetten": "523",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "153",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_4_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "551345.653 5937357.370"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_5",
+             "kh_nummer": "16",
+             "name": "Altonaer Kinderkrankenhaus",
+             "strasse": "Bleickenallee 38",
+             "ort": "22763 Hamburg",
+             "homepage": "http://www.kinderkrankenhaus.net",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1180108/akk.html",
+             "anzahl_planbetten": "206",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "31",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_5_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "560454.246 5934070.879"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_7",
+             "kh_nummer": "42",
+             "name": "Psychiatrische Tagesklinik der Praxisklinik Mümmelmannsberg",
+             "strasse": "Oskar-Schlemmer-Straße 9-17",
+             "ort": "22115 Hamburg",
+             "homepage": "http://www.drguth.de/praxisklinik",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1277282/praxisklinik-muemmelmannsberg.html",
+             "anzahl_planbetten": "0",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "30",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_7_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "576066.413 5931696.705"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_12",
+             "kh_nummer": "17",
+             "name": "Ev. Amalie-Sieveking-Krankenhaus",
+             "strasse": "Haselkamp 33",
+             "ort": "22359 Hamburg",
+             "homepage": "http://www.amalie.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1180512/amalie-sieveking.html",
+             "anzahl_planbetten": "318",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "20",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Geburtsklinik",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_12_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "576088.133 5944238.987"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_16",
+             "kh_nummer": "13",
+             "name": "Bundeswehrkrankenhaus Hamburg",
+             "strasse": "Lesserstraße 180",
+             "ort": "22049 Hamburg",
+             "homepage": "http://www.bundeswehrkrankenhaus-hamburg.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1144576/bundeswehrkrankenhaus.html",
+             "anzahl_planbetten": "154",
+             "hinweiszeile": "Das Krankenhaus verfügt über insgesamt 305 Betten. In den Krankenhausplan aufgenommen, sind nur die Betten, die Zivilpatientinnen und -patienten zuzuordnen sind.",
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_16_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "571250.750 5938997.361"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_24",
+             "kh_nummer": "24",
+             "name": "Katholisches Kinderkrankenhaus Wilhelmstift",
+             "strasse": "Liliencronstraße 130",
+             "ort": "22149 Hamburg",
+             "homepage": "http://www.kkh-wilhelmstift.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1180208/wilhelmstift.html",
+             "anzahl_planbetten": "210",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "39",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_24_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "577058.577 5938151.951"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_26",
+             "kh_nummer": "32",
+             "name": "Wilhelmsburger Krankenhaus Groß-Sand",
+             "strasse": "Groß-Sand 3",
+             "ort": "21107 Hamburg",
+             "homepage": "http://www.gross-sand.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1244000/gross-sand.html",
+             "anzahl_planbetten": "209",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "20",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_26_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "565400.918 5928763.710"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_28",
+             "kh_nummer": "53",
+             "name": "Praxisklinik Bergedorf",
+             "strasse": "Alte Holstenstraße 2 - 16",
+             "ort": "21031 Hamburg",
+             "homepage": "http://www.praxis-klinik-bergedorf.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1544380/praxisklinik-bergedorf.html",
+             "anzahl_planbetten": "18",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_28_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "580035.085 5927916.489"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_30",
+             "kh_nummer": "91",
+             "name": "Verhaltenstherapie Falkenried",
+             "strasse": "Jarrestraße 6",
+             "ort": "22303 Hamburg",
+             "homepage": "http://www.private-tagesklinik.vt-falkenried.de/",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/4439082/vtf-falkenried.html",
+             "anzahl_planbetten": "0",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "17",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_30_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "567506.567 5937685.087"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_32",
+             "kh_nummer": "97",
+             "name": "Stadtteilklinik Hamburg",
+             "strasse": "Oskar-Schlemmer-Straße 9-17",
+             "ort": "22115 Hamburg",
+             "homepage": "http://www.stadtteilklinik.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1277282/stadtteilklinik.html",
+             "anzahl_planbetten": "15",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_32_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "576073.684 5931735.100"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_40",
+             "kh_nummer": "07b",
+             "name": "Asklepios Klinik Nord - Ochsenzoll (Psychiatrie)",
+             "strasse": "Langenhorner Chaussee 560",
+             "ort": "22419 Hamburg",
+             "homepage": "http://www.asklepios.com/hamburg/nord/psychiatrie-ochsenzoll/",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1143358/nord.html",
+             "anzahl_planbetten": "533",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "144",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_40_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "566291.696 5947680.638"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_9",
+             "kh_nummer": "20",
+             "name": "Evangelisches Krankenhaus Alsterdorf",
+             "strasse": "Bodelschwinghstraße 24",
+             "ort": "22337 Hamburg",
+             "homepage": "http://www.evangelisches-krankenhaus-alsterdorf.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1180268/alsterdorf.html",
+             "anzahl_planbetten": "291",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "63",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_9_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "567708.612 5941076.513"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_6",
+             "kh_nummer": "07a",
+             "name": "Asklepios Klinik Nord - Heidberg (Somatik)",
+             "strasse": "Tangstedter Landstraße 400",
+             "ort": "22417 Hamburg",
+             "homepage": "http://www.asklepios.com/hamburg/nord/heidberg/",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1143358/nord.html",
+             "anzahl_planbetten": "755",
+             "anzahl_plaetze_teilstationaer": "40",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Perinatalzentrum Level 1",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_6_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "567955.583 5947803.779"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_22",
+             "kh_nummer": "37",
+             "name": "Klinik Dr. Guth",
+             "strasse": "Jürgensallee 46-48",
+             "ort": "22609 Hamburg",
+             "homepage": "http://www.drguth.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1277972/drguth.html",
+             "anzahl_planbetten": "51",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_22_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "556547.841 5934556.182"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_25",
+             "kh_nummer": "22",
+             "name": "Bethesda Krankenhaus Bergedorf",
+             "strasse": "Glindersweg 80",
+             "ort": "21029 Hamburg",
+             "homepage": "http://www.klinik-bergedorf.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1243654/bergedorf.html",
+             "anzahl_planbetten": "352",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "50",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Geburtsklinik",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_25_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "582009.282 5927074.125"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_29",
+             "kh_nummer": "27",
+             "name": "Krankenhaus Jerusalem",
+             "strasse": "Moorkamp 2-6",
+             "ort": "20357 Hamburg",
+             "homepage": "http://www.krankenhaus-jerusalem.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/2784448/jerusalem.html",
+             "anzahl_planbetten": "20",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_29_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "564008.182 5936048.920"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_37",
+             "kh_nummer": "30",
+             "name": "Katholisches Marienkrankenhaus",
+             "strasse": "Alfredstraße 9",
+             "ort": "22087 Hamburg",
+             "homepage": "http://www.marienkrankenhaus.org",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1171048/marienkrankenhaus.html",
+             "anzahl_planbetten": "586",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "37",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Perinatalzentrum Level 1",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_37_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "568337.853 5934980.619"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_10",
+             "kh_nummer": "04",
+             "name": "Schön Klinik Hamburg Eilbek",
+             "strasse": "Dehnhaide 120",
+             "ort": "22081 Hamburg",
+             "homepage": "http://www.schoen-kliniken.de/ptp/kkh/eil/",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1144408/eilbek.html",
+             "anzahl_planbetten": "743",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "93",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_10_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "569773.549 5937127.029"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_14",
+             "kh_nummer": "29",
+             "name": "Krankenhaus Tabea",
+             "strasse": "Kösterbergstraße 32",
+             "ort": "22587 Hamburg",
+             "homepage": "http://www.tabea-fachklinik.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1244008/tabea.html",
+             "anzahl_planbetten": "84",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "10",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_14_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "552406.014 5935396.345"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_15",
+             "kh_nummer": "28",
+             "name": "HELIOS Mariahilf Klinik Hamburg",
+             "strasse": "Stader Straße 203c",
+             "ort": "21075 Hamburg",
+             "homepage": "https://www.helios-gesundheit.de/kliniken/mariahilf/",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1243914/mariahilf.html",
+             "anzahl_planbetten": "176",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Eingeschränkt",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Perinataler Schwerpunkt",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_15_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "562262.842 5925048.447"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_17",
+             "kh_nummer": "14b",
+             "name": "Albertinen-Haus - Medizinisch-Geriatrische Klinik",
+             "strasse": "Sellhopsweg 18-20",
+             "ort": "22459 Hamburg",
+             "homepage": "http://www.albertinen.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1170932/albertinen.html",
+             "anzahl_planbetten": "127",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "35",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_17_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "561436.788 5942506.403"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_18",
+             "kh_nummer": "08",
+             "name": "Asklepios Klinik Wandsbek",
+             "strasse": "Alphonsstraße 14",
+             "ort": "22043 Hamburg",
+             "homepage": "http://www.asklepios.com/wandsbek",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1143466/wandsbek.html",
+             "anzahl_planbetten": "553",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "20",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Perinataler Schwerpunkt",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_18_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "572117.612 5936208.925"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_19",
+             "kh_nummer": "23",
+             "name": "Israelitisches Krankenhaus",
+             "strasse": "Orchideenstieg 14",
+             "ort": "22297 Hamburg",
+             "homepage": "http://www.ik-h.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1243244/israelitisches.html",
+             "anzahl_planbetten": "147",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_19_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "565596.456 5940130.858"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_31",
+             "kh_nummer": "05",
+             "name": "Asklepios Klinik Altona",
+             "strasse": "Paul-Ehrlich-Straße 1",
+             "ort": "22763 Hamburg",
+             "homepage": "http://www.asklepios.com/altona",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/981932/altona.html",
+             "anzahl_planbetten": "629",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "3",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Perinatalzentrum Level 1",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_31_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "559714.651 5934317.484"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_34",
+             "kh_nummer": "34",
+             "name": "Helios Endo-Klinik Hamburg",
+             "strasse": "Holstenstraße 2",
+             "ort": "22767 Hamburg",
+             "homepage": "http://www.helios-kliniken.de/klinik/hamburg-endo-klinik.html",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1244888/endoklinik.html",
+             "anzahl_planbetten": "204",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_34_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "563277.892 5934019.332"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_35",
+             "kh_nummer": "18",
+             "name": "BG Klinikum Hamburg gGmbH",
+             "strasse": "Bergedorfer Straße 10",
+             "ort": "21033 Hamburg",
+             "homepage": "http://www.buk-hamburg.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1170712/boberg.html",
+             "anzahl_planbetten": "279",
+             "hinweiszeile": "Das Krankenhaus verfügt insgesamt über rund 585 Betten. In den Krankenhausplan aufgenommen sind nur die Betten, die für GKV-Versicherte zur Verfügung stehen.",
+             "anzahl_plaetze_teilstationaer": "0",
+             "teilnahme_notversorgung": "Eingeschränkt",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_35_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "578193.047 5929288.173"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_36",
+             "kh_nummer": "06",
+             "name": "Asklepios Klinikum Harburg",
+             "strasse": "Eißendorfer Pferdeweg 52",
+             "ort": "21075 Hamburg",
+             "homepage": "http://www.asklepios.com/harburg",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1143268/harburg.html",
+             "anzahl_planbetten": "926",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "128",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_36_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "563085.727 5924016.116"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_39",
+             "kh_nummer": "56",
+             "name": "Psychiatrische Tagesklinik Hamburg-Mitte",
+             "strasse": "Budapester Straße 38",
+             "ort": "20359 Hamburg",
+             "homepage": "http://www.tagesklinik-hh-mitte.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1277750/janssen-haus.html",
+             "anzahl_planbetten": "0",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "26",
+             "teilnahme_notversorgung": "Nein",
+             "teilnahme_geburtsklinik": "Nein",
+             "geburtsklinik_differenziert": "Nein",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_39_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "563897.527 5934384.741"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_8",
+             "kh_nummer": "01",
+             "name": "Universitätsklinikum Hamburg-Eppendorf",
+             "strasse": "Martinistraße 52",
+             "ort": "20251 Hamburg",
+             "homepage": "http://www.uke.de",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1143816/uke.html",
+             "anzahl_planbetten": "1494",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "148",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Perinatalzentrum Level 1",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_8_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "564559.558 5938337.224"
+                }
+             }
+          }
+       },
+       {
+          "krankenhaeuser_hh": {
+             "@id": "APP_KRANKENHAEUSER_HH_38",
+             "kh_nummer": "03",
+             "name": "Asklepios Klinik Barmbek",
+             "strasse": "Rübenkamp 220",
+             "ort": "22307 Hamburg",
+             "homepage": "http://www.asklepios.com/barmbek",
+             "krankenhausverzeichnis": "http://www.hamburg.de/krankenhausverzeichnis/1143354/barmbek.html",
+             "anzahl_planbetten": "691",
+             "hinweiszeile": null,
+             "anzahl_plaetze_teilstationaer": "6",
+             "teilnahme_notversorgung": "Ja",
+             "teilnahme_geburtsklinik": "Ja",
+             "geburtsklinik_differenziert": "Ja<br>Perinatalzentrum Level 1",
+             "stand": "01.01.2020",
+             "geom": {
+                "Point": {
+                   "@id": "APP_KRANKENHAEUSER_HH_38_APP_GEOM",
+                   "@srsName": "EPSG:25832",
+                   "pos": "568533.692 5940230.772"
+                }
+             }
+          }
+       }
+    ]
+ }
+ 
+ 

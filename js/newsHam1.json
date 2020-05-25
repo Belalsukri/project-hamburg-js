@@ -1,0 +1,251 @@
+{
+    "@version": "2.0",
+    "channel": {
+       "title": "Hamburg News",
+       "link": [
+          "https://www.hamburg-news.hamburg/",
+          {
+             "@href": "https://www.hamburg-news.hamburg/feeds/articles/602/",
+             "@rel": "self"
+          }
+       ],
+       "description": [],
+       "language": "de",
+       "lastBuildDate": "Fri, 24 Apr 2020 10:00:00 +0000",
+       "item": [
+          {
+             "title": "Senat beschließt Ölheizungsverbot",
+             "link": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/senat-beschliesst-oelheizungsverbot/",
+             "description": "Das Verbot ist ein Baustein innerhalb des Klimaschutz-Gesetzes. Es soll nun Planungssicherheit schaffen",
+             "pubDate": "Fri, 24 Apr 2020 10:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/senat-beschliesst-oelheizungsverbot/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/15839_geheimtipp_innovation_skylineenergieberg_190104_variant_1.jpg",
+                "@length": "583776"
+             },
+             "category": "Erneuerbare Energien"
+          },
+          {
+             "title": "Corona-Verdachtsfälle: Hamburg richtet Infektpraxen ein",
+             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/corona-verdachtsfaelle-hamburg-richtet-infektpraxen-ein/",
+             "description": "10 Anlaufstellen für Patienten mit potenziellen Covid-19-Symptomen geplant. Täglich rund 3.500 Testungen in Hamburger Laboren",
+             "pubDate": "Fri, 24 Apr 2020 04:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/corona-verdachtsfaelle-hamburg-richtet-infektpraxen-ein/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/online-marketing-higeoqjs_ie-unsplash-2.jpg",
+                "@length": "435015"
+             },
+             "category": "Gesundheitswirtschaft & Life Science"
+          },
+          {
+             "title": "Wasserstoff: Hamburg tritt Europäischem Verbund bei",
+             "link": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/wasserstoff-hamburg-tritt-europaeischem-verbund-bei/",
+             "description": "European Hydrogen Valleys Partnership treibt das Zukunftsthema Wasserstoff voran. Länderübergreifende Gemeinschaftsprojekte geplant",
+             "pubDate": "Thu, 23 Apr 2020 13:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/wasserstoff-hamburg-tritt-europaeischem-verbund-bei/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/windenergie_l_wwwmediaserverhamburgdechristian_spahrbier.jpg",
+                "@length": "854818"
+             },
+             "category": "Erneuerbare Energien"
+          },
+          {
+             "title": "Ioki befördert Pflegekräfte und Patienten kostenlos",
+             "link": "https://www.hamburg-news.hamburg/de/hafen-logistik/ioki-befoerdert-pflegekraefte-und-patienten-kostenlos/",
+             "description": "Hamburger On-Demand-Service bietet Mitarbeitern von Arztpraxen und Pflegeeinrichtungen sowie Patienten in Stadtteilen kostenlose Nutzung",
+             "pubDate": "Thu, 23 Apr 2020 10:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/hafen-logistik/ioki-befoerdert-pflegekraefte-und-patienten-kostenlos/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/ioki-on-demand-mobilitat_14.jpg",
+                "@length": "1565297"
+             },
+             "category": "Hafen & Logistik"
+          },
+          {
+             "title": "DHDL 7.0: So stark war die Hamburger Gründerszene vertreten",
+             "link": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/dhdl-70-so-stark-war-die-hamburger-gruenderszene-vertreten/",
+             "description": "Drei von sechs Folgen mit mutigen Unternehmern aus der Elbmetropole. Nico Rosberg wird Nachfolger von Frank Thelen. Er setzt auf nachhaltige Geschäftsmodelle",
+             "pubDate": "Thu, 23 Apr 2020 04:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/dhdl-70-so-stark-war-die-hamburger-gruenderszene-vertreten/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/dhdl_l_tvnowbernd-michael_maurer.jpg",
+                "@length": "818683"
+             }
+          },
+          {
+             "title": "Querdenker Michael Braungart: Alles noch mal neu erfinden",
+             "link": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/michael-braungart-alles-noch-mal-neu-erfinden/",
+             "description": "Professor an der Leuphana-Universität in Lüneburg und Pionier des Cradle-to-Cradle Konzepts ist überzeugt: Echte Innovation ist nie nachhaltig",
+             "pubDate": "Wed, 22 Apr 2020 08:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/michael-braungart-alles-noch-mal-neu-erfinden/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/191022_prof_michael_braungart_5_002.jpg",
+                "@length": "409649"
+             }
+          },
+          {
+             "title": "Wege in die Klimaneutralität",
+             "link": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/wege-die-klimaneutralitaet/",
+             "description": "Immer mehr Hamburger Unternehmen forcieren nachhaltige Ansätze bei Produktion und Energiegewinnung – und fahren gut damit",
+             "pubDate": "Wed, 22 Apr 2020 04:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/wege-die-klimaneutralitaet/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/wwwmediaserverhamburgde__cluster_ern_energien.jpg",
+                "@length": "95031"
+             }
+          },
+          {
+             "title": "Senat und IFB bieten Förderung für Startups",
+             "link": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/senat-und-ifb-bieten-foerderung-fuer-startups/",
+             "description": "Die Hamburgische Investitions- und Förderbank und der Senat unterstützen innovative, wachstumsorientierte Startups, die durch die Coronakrise bedroht sind",
+             "pubDate": "Tue, 21 Apr 2020 12:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/senat-und-ifb-bieten-foerderung-fuer-startups/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/14655_doublevision_hafencity_170910_variant_1.jpg",
+                "@length": "856180"
+             },
+             "category": "Media, IT & Kreativwirtschaft"
+          },
+          {
+             "title": "Hafen Hamburg Marketing bündelt News",
+             "link": "https://www.hamburg-news.hamburg/de/hafen-logistik/sarah-red-corona-krise-hafen-hamburg-marketing-buendelt-news/",
+             "description": "Auswirkungen von Covid-19 auf den Hamburger Hafen und die Verkehrs- und Logistikwirtschaft. HHM mit zentraler Website",
+             "pubDate": "Tue, 21 Apr 2020 11:17:44 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/hafen-logistik/sarah-red-corona-krise-hafen-hamburg-marketing-buendelt-news/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/14710__andreas_vallbracht_containerterminal_burchardkai_171204_variant_1.jpg",
+                "@length": "1677802"
+             },
+             "category": "Hafen & Logistik"
+          },
+          {
+             "title": "NeverLunchAlone - Corona-Hilfe für die Kreativwirtschaft",
+             "link": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/neverlunchalone-corona-hilfe-fuer-die-kreativwirtschaft/",
+             "description": "Die Hamburger Kreativ Gesellschaft bietet Kreativschaffenden zahlreiche Hilfsangebote: Im Tagesworkshop oder im digitalen Austausch beim Lunch",
+             "pubDate": "Tue, 21 Apr 2020 04:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/neverlunchalone-corona-hilfe-fuer-die-kreativwirtschaft/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/2012-07-20_hh_22_speicherstadt.jpg",
+                "@length": "3398436"
+             },
+             "category": "Media, IT & Kreativwirtschaft"
+          },
+          {
+             "title": "Mobilität: HAW Hamburg zeichnet Ideen aus",
+             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/mobilitaet-haw-hamburg-zeichnet-ideen-aus/",
+             "description": "Wettbewerb zum 50-jährigen Bestehen der Hochschule. Top 3 Zukunftsideen gekürt – vom Tech-Blindenführerhund bis zur Berufsorientierung per VR",
+             "pubDate": "Mon, 20 Apr 2020 11:30:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/mobilitaet-haw-hamburg-zeichnet-ideen-aus/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/1_campus_berliner_tor_haw_hamburg_jonas_fischerhaw_hamburg.jpg",
+                "@length": "5640887"
+             },
+             "category": "Gesundheitswirtschaft & Life Science"
+          },
+          {
+             "title": "Mit Nanobiotechnologie gegen Umweltverschmutzung",
+             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/mit-nanobiotechnologie-gegen-umweltverschmutzung/",
+             "description": "Nandatec aus Lübeck bietet mithilfe von biokompatiblen Nanopartikeln eine Alternative zu toxischen Mitteln. Ein Zufall brachte die Gründerin auf die Idee",
+             "pubDate": "Mon, 20 Apr 2020 04:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/mit-nanobiotechnologie-gegen-umweltverschmutzung/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/img_0444.jpg",
+                "@length": "238584"
+             },
+             "category": "Gesundheitswirtschaft & Life Science"
+          },
+          {
+             "title": "Climathon 2020: Klima-Lösungen für Unternehmen",
+             "link": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/climathon-2020-loesungen-fuer-unternehmen/",
+             "description": "Bei dem Klima-Hackathon entstehen Ideen zum Schutz der Umwelt. Unternehmen können profitieren. Impact Hub Hamburg sucht Partner",
+             "pubDate": "Fri, 17 Apr 2020 10:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/climathon-2020-loesungen-fuer-unternehmen/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/ih_hh_team_nwa.jpg",
+                "@length": "292233"
+             }
+          },
+          {
+             "title": "Award: Metropolitaner des Jahres gesucht",
+             "link": "https://www.hamburg-news.hamburg/de/kongresse-veranstaltungen/award-metropolitaner-des-jahres-gesucht/",
+             "description": "Preis für Personen, Vereine, Stiftungen und Unternehmen, die sich besonders für die Metropolregion Hamburg engagieren. Nominierungen bis Mitte Mai möglich",
+             "pubDate": "Fri, 17 Apr 2020 04:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/kongresse-veranstaltungen/award-metropolitaner-des-jahres-gesucht/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/15417__stadt_hamburg_sternfahrt-013_variant_1_WeyqORn.jpg",
+                "@length": "1608303"
+             },
+             "category": "Kongresse & Veranstaltungen"
+          },
+          {
+             "title": "About You kündigt Verkauf von textilen Schutzmasken an",
+             "link": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/about-you-kuendigt-verkauf-von-textilen-schutzmasken/",
+             "description": "Ab April will das Fashion-Tech-Startup Behelfsmasken zum Selbstkostenpreis anbieten",
+             "pubDate": "Thu, 16 Apr 2020 10:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/about-you-kuendigt-verkauf-von-textilen-schutzmasken/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/adam_niesciorukunsplash.jpg",
+                "@length": "824703"
+             }
+          },
+          {
+             "title": "3,7 Millionen Euro für die Filmbranche im Norden",
+             "link": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/37-millionen-euro-fuer-die-filmbranche-im-norden/",
+             "description": "Umfangreiches Maßnahmenpaket soll Film- und Kinobranche in Hamburg und Schleswig-Holstein unterstützen",
+             "pubDate": "Thu, 16 Apr 2020 04:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/37-millionen-euro-fuer-die-filmbranche-im-norden/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/avel-chuklanov-hn3s90f6aak-unsplash_1.jpg",
+                "@length": "255332"
+             },
+             "category": "Media, IT & Kreativwirtschaft"
+          },
+          {
+             "title": "HPA stundet Mieten und Entgelte für Hafenwirtschaft",
+             "link": "https://www.hamburg-news.hamburg/de/hafen-logistik/hpa-stundet-mieten-und-entgelte-fuer-hafenwirtschaft/",
+             "description": "Mieter der Hamburg Port Authority (HPA) können die zinslose Stundung der Gebäude- und Grundstücksmieten für mehrere Monate beantragen",
+             "pubDate": "Wed, 15 Apr 2020 12:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/hafen-logistik/hpa-stundet-mieten-und-entgelte-fuer-hafenwirtschaft/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/16453_190913_geheimtipp_koehlbrandbruecke_schiff_variant_1.jpg",
+                "@length": "492363"
+             },
+             "category": "Hafen & Logistik"
+          },
+          {
+             "title": "Digitalisierung und Homeoffice: „Lasst uns den Aufwind nutzen\"",
+             "link": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/digitalisierung-und-homeoffice-lasst-uns-den-aufwind-nutzen/",
+             "description": "Nick Sohnemann, Gründer der Hamburger Innovationsagentur Future Candy, im Webinar über neue Gewohnheiten und Tech-Trends rund um flexibles Arbeiten",
+             "pubDate": "Wed, 15 Apr 2020 10:03:13 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/digitalisierung-und-homeoffice-lasst-uns-den-aufwind-nutzen/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/nicksohnemann_buehne2_web.jpg",
+                "@length": "177569"
+             }
+          },
+          {
+             "title": "Corona – Digitalisierung hilft durch die Krise",
+             "link": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/corona-digitalisierung-hilft-durch-die-krise/",
+             "description": "Unternehmen, Vereine, Kultur und Hochschulen, dank verschiedenster Techniktools geht der Betrieb weiter",
+             "pubDate": "Wed, 15 Apr 2020 08:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/corona-digitalisierung-hilft-durch-die-krise/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/bucerius_law_school_1.jpg",
+                "@length": "592934"
+             }
+          },
+          {
+             "title": "Wunder Mobility: #WeAllMove bündelt Mobilitätsangebote",
+             "link": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/red-karo-wunder-mobility-weallmove-buendelt-mobilitaetsangebote/",
+             "description": "Hamburger Softwareentwickler startet Initiative #WeAllMove. Auf der Plattform können Nutzer international gebündelt Mobilitätsangebote buchen",
+             "pubDate": "Wed, 15 Apr 2020 07:00:00 +0000",
+             "guid": "https://www.hamburg-news.hamburg/de/erneuerbare-energien/red-karo-wunder-mobility-weallmove-buendelt-mobilitaetsangebote/",
+             "enclosure": {
+                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/gunnar_froh_founder_and_ceo_wunder_mobility.jpg",
+                "@length": "53013"
+             },
+             "category": "Erneuerbare Energien"
+          }
+       ]
+    }
+ }

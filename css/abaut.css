@@ -5,7 +5,7 @@
 }
 #abCont{
     width: 100%;
-    height: 100vh;
+    height: 150%;
     overflow: hidden;
     display: flex;
     position: relative;
@@ -13,7 +13,7 @@
 
 #contAbaut{
 width: 100%;
-height: 100vh;
+height: 135%;
 position: absolute;
 overflow: hidden;
 
@@ -52,13 +52,15 @@ z-index: -1;
 .navAbaut{
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 70px;
     display: flex;
     justify-content: center;
     background-color: rgb(75, 102, 124);
     font-family: 'Inter', sans-serif;
     transform: scale(0);
     transition:2s ease-in-out;
+    z-index: 333;
+   
 }
 .navUl{
 
@@ -66,6 +68,7 @@ z-index: -1;
 width: 35%;
 margin:  20px;
 display: flex;
+
 text-transform: uppercase;
 justify-content: space-around;
 list-style-type: none;
@@ -118,12 +121,13 @@ z-index: 10px;
 }
 .textAb{
     top: 100px;
-    width: 35%;
+    width: 43%;
     position: absolute;
     margin: 40px;
     font-size: 25px;
     font-weight: bold;
     transform: scale(0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .textAb .p ,.p1{
@@ -154,7 +158,7 @@ z-index: 10px;
     height: 100px;
     
     position: absolute;
-  top: 550px;
+  top: 500px;
     transform: translateX(-80%);
     transition: 1s ease-in-out;
 }
@@ -166,9 +170,9 @@ z-index: 10px;
 } */
 .blo{
     position: absolute;
-    max-width: 400px;
+    max-width: 405px;
   
-    padding: 30px;
+    padding: 25px;
    right: 1%;
    top: 120px;
     color:rgb(241, 233, 233);
@@ -234,7 +238,7 @@ label {
     position: absolute;
     display: flex;
    justify-content: space-between;
-  bottom: 0;
+  bottom: 4px;
   left: 30px;
   transform: scale(0);
   transition:2s ease-in-out;
@@ -254,9 +258,9 @@ label {
       display: flex;
        justify-content: space-around; 
       align-items: center;
-      margin: 0 20%;
-     left: 18%;
-    bottom: 30px;
+      margin: 0 31%;
+     
+    bottom: 120px;
     position:absolute;
     transform: translateX(200%);
   transition:1s ease-in-out;
@@ -265,11 +269,11 @@ label {
 
   border-radius: 50%;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     transition: all 0.3s ease;
     color: white;
     margin: 20px;
-    font-size:40px;
+    font-size:35px;
     transition:1s ease-in-out;
   }
   .icon-bar a:hover {

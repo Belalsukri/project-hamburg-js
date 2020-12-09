@@ -9,7 +9,7 @@
    .then(data => {      
        
        //output.textContent   =  data;
-       console.log(data.featureMember);
+       console.log(data);
        data.featureMember.map(item=>{
           // console.log(item)
            let ul = document.createElement("ul");
@@ -48,10 +48,9 @@
 //////////
 function getData(arr){
     let res = document.querySelector('.res');
-    fetch("https://newsapi.org/v2/top-headlines?country=de&category=health&apiKey=15759484cfc6415e9cc3c3b64fcd889e", {
-    "method": "GET",
-   
-})
+    var proxyurl = "http://cors-anywhere.herokuapp.com/";
+    var url = "https://newsapi.org/v2/top-headlines?country=de&category=health&apiKey=15759484cfc6415e9cc3c3b64fcd889e";
+    fetch( proxyurl + url)
 
 .then(response => {
    let data = response.json().then(d=>{
@@ -120,57 +119,4 @@ function getData(arr){
 getData('arr')
   ////////////////////
 
-  let nachrecht = document.getElementById('nachrecht');
-  let url1 = './js/news-hamburg.json';
-  fetch(url1)
-  .then(response  => response.json())
-  .then(data => {      
-      
-      //output.textContent   =  data;
-     console.log(data.channel.item);
-      data.channel.item.map(item=>{
-          console.log(item)
-           let ul = document.createElement("ul");
-           ul.style.listStyleType='none'
-          let title = document.createElement("li");
-          let category = document.createElement("li");
-           let description = document.createElement("li");
-           let imgLi = document.createElement("li");
-           let img = document.createElement("img");
-           let homepage = document.createElement("li");
-          let link ;
-           let pubDate = document.createElement("li");
-          // let teilmhem = document.createElement("li");
-          // let notversorgung =document.createElement('li')
-          
-           title.textContent=item.title;
-           title.classList.add('titl')
-           img.src=item.enclosure['@url'];
-           img.classList.add('imNew')
-           imgLi.appendChild(img);
-           console.log(img);
-           
-           category.textContent=item.category;
-           description.textContent=item.description;
-           link=item.link;
-          homepage.innerHTML=`<a href='${link}' target="_blank" > homepage </a>` ; 
-          pubDate.textContent=item.pubDate;
-          // teilmhem.textContent='geburtsklinik' + ': ' +item.krankenhaeuser_hh.teilnahme_geburtsklinik;
-          // notversorgung.textContent='geburtsklinik' + ': ' +item.krankenhaeuser_hh.teilnahme_notversorgung
-          ul.appendChild(imgLi);
-
-          ul.appendChild(title);
-           ul.appendChild(category);
-           ul.appendChild(description);
-          ul.appendChild(homepage);
-          ul.appendChild(pubDate)
-          // ul.appendChild(teilmhem)
-          // ul.appendChild(notversorgung)
-          
-          
-          nachrecht.appendChild(ul)
-          
-      })
-     
-      
-  });
+  

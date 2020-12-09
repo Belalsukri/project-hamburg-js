@@ -39,7 +39,7 @@
 .res{
 
     display: grid;
-   
+   width: 80%;
     grid-gap: 28px;
     perspective: 800px;
   

@@ -1,15 +1,14 @@
 window.onload = function(){
    // nachrecht()
-    getData(arr)
+    getData()
     navAbaut()
  }
-let arr =''
-function getData(arr){
-    cat1 =arr
-    fetch(`https://newsapi.org/v2/everything?q=hamburg&from=2020-05-03&15759484cfc6415e9cc3c3b64fcd889e`, {
-    "method": "GET",
-   
-})
+
+function getData(){
+    
+    var proxyurl = "http://cors-anywhere.herokuapp.com/";
+    var url ='https://newsapi.org/v2/everything?q=hamburg&apiKey=15759484cfc6415e9cc3c3b64fcd889e';
+    fetch(proxyurl + url)
 
 .then(response => {
    let data = response.json().then(d=>{

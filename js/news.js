@@ -4,11 +4,9 @@ window.onload = function(){
 
 
 function getData(arr){
-    
-     fetch("https://newsapi.org/v2/top-headlines?country=de&category="+arr+"&apiKey=15759484cfc6415e9cc3c3b64fcd889e", {
- 	"method": "GET",
-	
- })
+     var proxyurl = "http://cors-anywhere.herokuapp.com/";
+     var url ="http://newsapi.org/v2/top-headlines?country=de&category="+arr+"&apiKey=15759484cfc6415e9cc3c3b64fcd889e";
+     fetch(proxyurl + url)
 
  .then(response => {
     let data = response.json().then(d=>{
@@ -20,7 +18,7 @@ function getData(arr){
           let marText = '<marquee  direction="left" loop="true" onmouseover="this.stop();" onmouseout="this.start();">'
           res.innerHTML='';
          d.articles.map(item=>{
-             // console.log(item);
+              console.log(item);
 
              let title= document.createElement("li");
              let description= document.createElement("li");
@@ -84,6 +82,17 @@ catBtns.forEach(btn => {
    
 }); 
 
+
+
+
+const proxyurl = "http://cors-anywhere.herokuapp.com/";
+const url = 'http://newsapi.org/v2/top-headlines?' +
+'country=us&' +
+'apiKey=15759484cfc6415e9cc3c3b64fcd889e'; // site that doesn’t send Access-Control-*
+fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
+.then(response => response.text())
+.then(contents => console.log(contents))
+.catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))
 }
 function navAbaut() {
      let burger=document.querySelector('#burger')

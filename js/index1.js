@@ -16,34 +16,13 @@ window.addEventListener('load', () => {
         })
         .then(data => {
             console.log(data);
-            // http://openweathermap.org/img/wn/10d@2x.png
-            // console.log(ff);
             temp.innerHTML = data.main.temp + "&#8451;";
             tre.innerHTML = '<img class="icon" src="http://openweathermap.org/img/wn/' + data.weather[0].icon + '@2x.png">';
-            // console.log(data.name);
-
+         
         })
 
 })
-// let go =document.querySelector('#go')
-// window.onscroll=function(){
-// if (window.pageYOffset>=500) {
-//     go.style.display='block'
-// } else {
-//     go.style.display='none'
-// }
-// }
-// go.onclick=function(){
-//     window.scrollTo(0,0)
-// }
 
-// let container = document.querySelector('#container')
-// window.addEventListener('scroll', function () {
-//     let offset = window.pageYOffset;
-
-//     container.style.backgroundPositionY = offset * 0.7 + 'px'
-
-// })
 
 function clock() {
     let hour = document.querySelector('#hour')
@@ -143,40 +122,21 @@ sub1()
 
 //////////////////////////////////////////////////////////////////////////////////////////
 const section = document.querySelectorAll(".section");
-// const locationImage = {
-//     x: 15,
-//     y: 15,
-//     prevImage:{
-//         x:15,
-//         y:15
-//     }
-// }
-// const increasement = {
-//     x:222,
-//     y:170
-// }
 
 section.forEach(element => {
-    Array.from(element.children).forEach(f => {
-        // console.log(f)
+    Array.from(element.children).forEach(f => {  
         f.classList.add("hov")
-        
         f.style.backgroundImage = `url('${f.children[1].children[0].children[0].src}')`
-        // f.style.top = locationImage.y + "px"
-        // f.style.left = locationImage.x + "px"
-        // console.log(f.children[1].children[0].children[0].src)
         f.addEventListener("click", e => {
             if (f !== e.target) return;
             f.classList.remove("hov")
             let model = f.children[1]
-            // console.log(model)
             model.style.display = 'block'
             model.style.transform = "scale(1)";
             let close = model.children[2]
-            // console.log(close);
-            
+          
             close.addEventListener("click", ev => {
-                // console.log(ev.target.parentElement)
+             
                 f.style.backgroundImage = `url('${f.children[1].children[0].children[0].src}')`
                 ev.target.parentElement.style.transform = "scale(0)";
                 model.style.transform = "scale(0)";
@@ -185,7 +145,7 @@ section.forEach(element => {
             // event listener for images
             Array.from(f.children[1].children[0].children[1].children).forEach(evt => {
                 evt.addEventListener("mouseover", evtt => {
-                    // console.log(evtt.target.parentElement.parentElement.parentElement.children[0])
+                   
                     evtt.target.parentElement.parentElement.parentElement.children[0].src = evtt.target.src
                 })
 
@@ -216,8 +176,7 @@ function currentSlide(n) {
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    // console.log(slides);
-
+   
     var dots = document.getElementsByClassName("dot");
     if (n > slides.length) {
         slideIndex = 1
@@ -251,8 +210,7 @@ function currentSlide1(n) {
 function showSlides1(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides1");
-    // console.log(slides);
-
+   
     var dots = document.getElementsByClassName("dot1");
     if (n > slides.length) {
         slideIndex = 1

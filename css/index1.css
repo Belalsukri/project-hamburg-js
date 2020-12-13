@@ -80,11 +80,12 @@ width: 55px;
   nav{
       width: 100%;
       height: 20px;
-      z-index: 1;
+      z-index: 9;
       position: fixed;
+      
   }
   nav>ul{
-    background-color:rgba(6, 57, 88, 0.918);
+    background-color:rgb(6, 57, 88);
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -93,6 +94,7 @@ width: 55px;
       justify-content: center;
       position: relative;
       transition:1s ease-in-out;   
+      box-shadow: 2px 2px 8px rgba(89, 194, 255, 0.719);
   }
   nav>ul>li{
       width: 100px;
@@ -204,7 +206,7 @@ width: 55px;
 #imeges{
     display: grid;
 
-    grid-template-rows: 450px 690px 450px 450px 450px 400px;
+    grid-template-rows: 400px 690px 400px 400px 400px 400px;
     grid-gap:40px ;
     position: relative;
     overflow: hidden;
@@ -220,38 +222,48 @@ width: 55px;
     display: grid;
     grid-template-columns:50% 50%;
     background-color: rgba(6, 57, 88, 0.918);
-    grid-column-gap: 20px;
+    
     position: relative;
    overflow: hidden;
    
     color: rgb(248, 237, 237);
 }
 #sprech{
-  margin: 25px 25px;
+  padding: 30px;
   line-height: 35px;
   display: grid;
  font-size: 20px;
- letter-spacing: 2px;
+ 
 word-spacing: 5px;
 }
 #mapss{
  
 display: grid;
-
-  
+width: 100%;
+height: 100%;
+padding: 20px;
  
 }
 #map{
   display: grid;
-  width: 80%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
  margin: auto;
+ 
 }
-
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
  #img1 {
    
     transition: 1s;
-    z-index: 10;
+    z-index: 1;
     transform: scale(1);
     display: flex;
     justify-content: center;
@@ -264,11 +276,11 @@ display: grid;
 
 .hov{
    position: relative; 
-  width: 480px;
-  height: 300px;
+  width: 375px;
+  height: 250px;
   background-size: cover;
   background-position: center;
-  box-shadow:5px 4px 8px 5px rgba(20, 2, 2, 0.349);  
+  box-shadow:5px 4px 4px 0px rgb(32 206 224 / 20%);  
   border-radius: 7px;
   background-blend-mode:multiply ;
   transition: 1s;
@@ -277,11 +289,11 @@ display: grid;
 .hov:hover{
   z-index: 3;
   border: solid rgba(188, 188, 226, 0.349) 2px ;
-  width: 580px;
-  height: 350px; 
+  width: 520px;
+  height: 325px; 
   position: absolute;   
   transition: all 0.7s;
-  box-shadow: 15px 15px 5px rgba(39, 39, 39, 0.575);
+  box-shadow: 5px 5px 5px rgba(39, 39, 39, 0.575);
 }
 
 .im1{
@@ -331,22 +343,7 @@ display: grid;
   left: 2px;
   border-radius: 18px;
  }
- /* .somImg{
-     width: 50%;
-     height: 25%;
-    margin: 15px;
-    float: left;
-    left: 2px;
- } */
-
- /* .som1{
-     display: grid;
-    top: 10px;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    border-radius: 8px;;
- } */
+ 
  .imege1{
    position: absolute;
    width: 210px;
@@ -424,43 +421,40 @@ background-color: rgba(0, 0, 0, 0.116);
   
 }
 /* 666666666 */
-#cont2{
-
-   
+#cont2{  
   display: grid;
-    grid-template-columns: 50% 50%;
- grid-column-gap: 20px;
+  grid-template-columns: 50% 50%;
   position: relative;
- overflow: hidden;
-background-color: rgba(6, 57, 88, 0.918);
-
-
+  background-color: rgba(6, 57, 88, 0.918);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+#txtF2{
+  width: 100%;
+  height: 100%;
+  padding: 30px;
 }
 
-#mapNin{
-  width: 200px;
-  height: 200px;
-  position: absolute;
- 
-}
 .slideshow-container,.slideshow-container1 {
-
- display: grid;
-    position: relative;
-  
-  
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 20px;
   }
-  .mySlides ,.mySlides1 {
-      width: 100%;
-      height: 100%;
-    display: none;
-    position: absolute;
-  padding: 20px;
-  }
+  
   .imeg{
-      width: 90%;
-      height: 90%;
-      position: absolute;
+    position: absolute;
+    top:20px;
+    bottom: 20px;
+    left: 40px;
+    right: 20px;
+    height: 90%;
+    width: 90%;
+     
+      border-radius: 3%;
   }
   .prev, .next ,.prev1 ,.next1{
     cursor: pointer;
@@ -475,11 +469,11 @@ background-color: rgba(6, 57, 88, 0.918);
    border-radius: 50px;
   }
   .next,.next1 {
-    right: 85px;
+    right: 4%;
     border-radius: 50px;
   }
   .prev,.prev1{
-    left: 35px;
+    left: 8%;
   }
   .prev:hover, .next:hover {
     background-color: rgba(47, 48, 47, 0.925);
@@ -487,28 +481,22 @@ background-color: rgba(6, 57, 88, 0.918);
   .prev1:hover, .next1:hover {
     background-color: rgba(47, 48, 47, 0.925);
   }
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+  
+  .dots{
+    position: relative;
+    top: 86%;
   }
   .dot, .dot1 {
     cursor: pointer;
     height: 15px;
     width: 15px;
-  display: inline-flex;
+    display: inline-flex;
     background-color: rgb(243, 241, 241);
     border-radius: 50%;
-   text-align: center;
+    text-align: center;
     transition: background-color 0.6s ease;
-    position: relative;
-    top: 400px;
+    margin: 5px;
     padding: 10px;
-    
   }
   
   .active, .dot:hover {
@@ -553,31 +541,34 @@ background-color: rgba(6, 57, 88, 0.918);
   
  
   #cont4{
-    grid-template-columns: 50% 50%;
     display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
     background-color: rgba(6, 57, 88, 0.918);
-   justify-content: center;
-   top: 0px;
-position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
 
   }
+  
+
   .text4{
     
-    margin: 30px 30px;
-   font-size: 22px;
+  
+   font-size: 17px;
     display: grid;
   color: rgb(192, 184, 184);
-    letter-spacing: 1px;
-    line-height: 30px;
+    
+    line-height: 25px;
   }
   /* /////////sliderImg4//////////////// */
   .sliderImg4{
-    width: 100%;
-    height: 100%;
- 
-   
-    overflow: hidden;
-position: relative;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px;
   }
   .conSlid{
     width: 90%;
@@ -622,39 +613,43 @@ position: relative;
   /* ////////%%%%%555555555////// */
   #cont5{
    
-    display: grid;
+    
     background-color: rgba(6, 57, 88, 0.918);
   
+    display: grid;
+    
    
-  
+    
   
   }
   
   #rotating{
-
-    background-color: rgb(232, 233, 243);
-    display: grid;
+   
     transition:15s linear infinite ;
-      perspective: 1000px;
-      position: relative;
-      margin: 100px auto;
-      right: 20%;
+    perspective: 1000px;
+    display: grid;
+  justify-content: center;
+    width: 100%;
+   height: 100%;
+ 
   }
   .flip{
- 
-     width: 400px;
-     justify-items: center;
+    width: 300px;
+    height: 200px;
+
+     
+     position: relative;
     /* transition:15s linear infinite ; */
       animation:rotate 30s linear infinite;   
       /* -webkit-transition: all 0.8s linear; */
      transform-style: preserve-3d;
    
-   position: absolute;
+     top: 25%;
     
   }
   
   .imgFl{
-      width: 500px;
+      width: 400px;
       height: 200px;
     left: 1px;
    
@@ -663,57 +658,47 @@ position: relative;
   }
   .flip div{
     position: absolute;
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 200px;
     
   }
   .front{
-      transform: translateZ(250px);
+      transform: translateZ(200px);
      
   }
   .back{
-      transform: rotateY(180deg) translateZ(250px);
-      padding: 0;
-   margin: 0;
+      transform: rotateY(180deg) translateZ(200px);
+     
       
   }
   .left{
-      transform: rotateY(-90deg) translateX(-250px);
+      transform: rotateY(-90deg) translateX(-200px);
      
      transform-origin: left;
-     padding: 0;
-   margin: 0;
+     
   }
 
   .right{
-    transform: rotateY(90deg) translateX(250px);
+    transform: rotateY(90deg) translateX(200px);
   
    transform-origin: right;
-   padding: 0;
-   margin: 0;
+  
 }
 .top{
-    transform: rotateX(-90deg) translateY(-250px);
-     top: 10px;
+    transform: rotateX(-90deg) translateY(-200px);
+   
    transform-origin: top;
-   padding: 0;
-   margin: 0;
+  
 }
+
+
 
 @keyframes rotate{
     from{ transform: rotateY(0);}
     to{transform: rotateY(360deg);}
 }
 /* 55555%%%%% */
-#go{
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  padding: 5px;
-  display: none;
-  cursor: pointer
-  
-}
+
 #burger{
   width: 50px;
   position: fixed;
@@ -918,8 +903,8 @@ grid-template-columns:100%;
 
 }
 #sprech{
-width: 95%;
-height: 300px;
+width: 100%;
+
 margin: 5px auto;
 line-height: 25px;
 font-size: 18px;
@@ -929,9 +914,10 @@ word-spacing: 5px;
 }
 #map{
 display: grid;
-width: 90%;
+
 height: 250px;
 position: relative;
+margin-top: -39px;
 }
 #tenperatur{
   margin: 5px 270px;
@@ -1002,7 +988,7 @@ nav>ul{
 }
      
   .text4{
-    margin: 10px 10px;
+  margin: 0;
     font-size: 16px;
     display: grid;
     color: rgb(192, 184, 184);
@@ -1130,12 +1116,22 @@ align-items: center;
         height: 300px;
         margin: auto;
          }
+
+         .imeg{
+           left: 20px;
+           right: 0;
+          top: -5px;
+          bottom: 10px;
+          }
          .next,.next1 {
           right: 19px;
           border-radius: 50px;
         }
         .prev,.prev1{
           left: 19px;
+        }
+        .dots {
+          top: 105px;
         }
          #cont3{
           display: grid;
@@ -1156,68 +1152,79 @@ align-items: center;
           }
           .sliderImg4 {
             width: 100%;
-             height: 300px;
+            height: 300px;
             display: grid; 
-          
+            top: -39px;
             right: 21px;
              }
              
-            #rotating{
+             #rotating{
+   
+              transition:15s linear infinite ;
+              perspective: 1000px;
+              display: grid;
+            justify-content: center;
               width: 100%;
-             bottom: 110px;
-              position:relative;
-          margin: auto;
-          left: 0px;
+             height: 100%;
+           
             }
             .flip{
-           position: absolute;
+              width: 200px;
+              height: 100px;
           
-              top:0px;
-      
-            }
-            .imgFl{
-              width: 400px;
-              height: 200px;
-            left: 1px;       
-            position: absolute;
-          }
-          .flip div{
-            position: absolute;
-            width:400px;
-            height: 200px;
-          }
-          .front{
-              transform: translateZ(200px);
+               
+               position: relative;
+              /* transition:15s linear infinite ; */
+                animation:rotate 30s linear infinite;   
+                /* -webkit-transition: all 0.8s linear; */
+               transform-style: preserve-3d;
              
-          }
-          .back{
-              transform: rotateY(180deg) translateZ(200px);
-              padding: 0;
-           margin: 0;
+               top: 25%;
               
-          }
-          .left{
-              transform: rotateY(-90deg) translateX(-200px);
+            }
+            
+            .imgFl{
+                width: 200px;
+                height: 100px;
+              left: 1px;
              
-             transform-origin: left;
-             padding: 0;
-           margin: 0;
-          }
-        
-          .right{
-            transform: rotateY(90deg) translateX(200px);
           
-           transform-origin: right;
-           padding: 0;
-           margin: 0;
-        }
-        .top{
-            transform: rotateX(-90deg) translateY(-200px);
-             top: 10px;
-           transform-origin: top;
-           padding: 0;
-           margin: 0;
-        }
+              position: absolute;
+            }
+            .flip div{
+              position: absolute;
+              width: 200px;
+              height: 100px;
+              
+            }
+            .front{
+                transform: translateZ(100px);
+               
+            }
+            .back{
+                transform: rotateY(180deg) translateZ(100px);
+               
+                
+            }
+            .left{
+                transform: rotateY(-90deg) translateX(-100px);
+               
+               transform-origin: left;
+               
+            }
+          
+            .right{
+              transform: rotateY(90deg) translateX(100px);
+            
+             transform-origin: right;
+            
+          }
+          .top{
+              transform: rotateX(-90deg) translateY(-100px);
+             
+             transform-origin: top;
+            
+          }
 
 }
  

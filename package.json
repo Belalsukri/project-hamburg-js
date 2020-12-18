@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Belalsukri/project-hamburg-js#readme",
   "dependencies": {
+    "cool-ascii-faces": "^1.3.4",
     "express": "^4.17.1",
     "html": "^1.0.0"
   }

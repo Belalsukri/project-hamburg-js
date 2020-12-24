@@ -26,8 +26,8 @@ function abutImg() {
    abutIm.style.display= 'block';
 }
 function form() {
-    let form =document.querySelector('.blo')
-    form.style. transform= 'translateX(0%)';
+    // let form =document.querySelector('.blo')
+    // form.style. transform= 'translateX(0%)';
 }
 function nav1() {
     let nav =document.querySelector('.navAbaut')

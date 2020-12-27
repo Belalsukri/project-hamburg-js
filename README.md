@@ -8,4 +8,4 @@ This project is about the city of Hamburg
  - Some correct information such as hospital addresses and the latest health news
  - Publishing rights reserved
 to see the deployed project please visit this link :
-[kleinanzeige.herokuapp.com](https://hamburg-project.herokuapp.com/)
+[hamburg-project.herokuapp.com](https://hamburg-project.herokuapp.com/)

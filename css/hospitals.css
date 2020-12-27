@@ -1,174 +1,175 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald',sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald',sans-serif;
 }
 .contJson{
-    width: 100%;
-    
-    display: grid;
-    grid-template-rows: 600px auto;
-  background-color: rgba(104, 176, 248, 0.658);
-   
+  width: 100%;
+  
+  display: grid;
+  grid-template-rows: 500px auto;
+background-color:rgb(106 176 248);
+ 
 }
 .contHaus{
-    
- background-color: rgba(104, 176, 248, 0.658);
-
-    padding: 3%;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: auto auto auto;
-
-    justify-content: center;
   
+background-color: rgba(104, 176, 248, 0.658);
+
+  padding: 3%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto;
+
+  justify-content: center;
+
 }
 .imgJson{
-    display: grid;
-    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
-    margin: 10px;
-    background: url(../imeg/Rathaus5.jpg) no-repeat center/cover; 
-	background-size: 100% 100%;
-	animation: gradient 15s ease infinite;
-    
-    background-attachment: fixed;
+  display: grid;
+  /* clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%); */
+  
+  background: url(../imeg/Rathaus5.jpg) no-repeat center/cover; 
+background-size: 100% 84%;
+animation: gradient 15s ease infinite;
+  
+  background-attachment: fixed;
 }
 
 
 .res{
 
-    display: grid;
-   width: 80%;
-    grid-gap: 28px;
-    perspective: 800px;
-  
-  }
-  .mystyle {
   display: grid;
-  
-    background-color:rgba(42, 85, 114, 0.932);
-  color:white;
-    box-shadow: 7px 10px 5px rgba(6, 57, 88, 0.664),-5px -5px  rgba(3, 54, 85, 0.534);
-  
-     list-style-type: none; 
-   padding: 20px;
-    font-size: 19px;
-    line-height: 25px;
-    transition: all 0.5s;
-    
-  }
-  .mystyle:hover{
-    transform: scale(1.1);
-    transform: perspective(500);
-   
-    background-blend-mode:multiply ;
-    transition: all 0.5s;
-  }
-  .mystyle a{
-    text-decoration: none;
-    color: rgba(248, 2, 137, 0.993);
-  }
-  .imNew{
-    width: 90%;
-    height: 40vh;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 20px;
-    
-  }
-  
-#output{
-    display: grid;
-  
+ width: 80%;
   grid-gap: 28px;
+  perspective: 800px;
 
+}
+.mystyle {
+display: grid;
+
+  background-color:rgba(42, 85, 114, 0.932);
+color:white;
+  box-shadow: 7px 10px 5px rgba(6, 57, 88, 0.664),-5px -5px  rgba(3, 54, 85, 0.534);
+
+   list-style-type: none; 
+ padding: 20px;
+  font-size: 19px;
+  line-height: 25px;
+  transition: all 0.5s;
+  
+}
+.mystyle:hover{
+  transform: scale(1.1);
+  transform: perspective(500);
  
+  background-blend-mode:multiply ;
+  transition: all 0.5s;
+}
+.mystyle a{
+  text-decoration: none;
+  color: rgba(248, 2, 137, 0.993);
+}
+.imNew{
+  width: 90%;
+  height: 40vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+#output{
+  
+
+grid-gap: 28px;
+
+
 }
 #output ul {
 
-    display: grid;
+  display: grid;
+
+  background-color:rgba(42, 85, 114, 0.932);
+color:white;
+  box-shadow: 7px 10px 5px rgba(6, 57, 88, 0.664),-5px -5px  rgba(3, 54, 85, 0.534);
+
+   list-style-type: none; 
+ padding: 20px;
+  font-size: 19px;
+  line-height: 25px;
+  transition: all 0.5s;
   
-    background-color:rgba(42, 85, 114, 0.932);
-  color:white;
-    box-shadow: 7px 10px 5px rgba(6, 57, 88, 0.664),-5px -5px  rgba(3, 54, 85, 0.534);
-  
-     list-style-type: none; 
-   padding: 20px;
-    font-size: 19px;
-    line-height: 25px;
-    transition: all 0.5s;
-    
 }
 #nachrecht{
-  
-   display: grid;
-  
-  grid-gap: 28px; 
+
+ display: grid;
+
+grid-gap: 28px; 
 }
 
 #nachrecht ul{
-    display: grid;
-  
-    background-color:rgba(42, 85, 114, 0.932);
-  color:white;
-    box-shadow: 7px 10px 5px rgba(6, 57, 88, 0.664),-5px -5px  rgba(3, 54, 85, 0.534);
-  
-     list-style-type: none; 
-   padding: 20px;
-    font-size: 19px;
-    line-height: 25px;
-    transition: all 0.5s;
+  display: grid;
+  padding-bottom: 10px;
+  background-color:rgba(42, 85, 114, 0.932);
+color:white;
+  box-shadow: 7px 10px 5px rgba(6, 57, 88, 0.664),-5px -5px  rgba(3, 54, 85, 0.534);
+
+   list-style-type: none; 
+ padding: 20px;
+  font-size: 19px;
+  line-height: 25px;
+  transition: all 0.5s;
 }
 #nachrecht ul:hover{
-    transform: scale(1.1);
-    transform: perspective(500);
-   
-    background-blend-mode:multiply ;
-    transition: all 0.5s;
+  transform: scale(1.1);
+  transform: perspective(500);
+ 
+  background-blend-mode:multiply ;
+  transition: all 0.5s;
 }
 .h2{
-    text-align: center;
-    color: rgb(240, 240, 248);
+  text-align: center;
+  color: rgb(240, 240, 248);
+  padding-bottom: 10px;
 }
 .titl{
-    color: rgb(247, 147, 197);
-    line-height: 30px;
-    position: relative;
+  color: rgb(247, 147, 197);
+  line-height: 30px;
+  position: relative;
 }
- @media only screen and (max-width:900px){ 
+@media only screen and (max-width:900px){ 
 body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 .contHaus{
-  width: 95%;
-      margin: auto;
-      
-        display: grid;
-        gap: 20px;
-        grid-template-columns: 50% 50%;
-    }
+width: 95%;
+    margin: auto;
+    
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 50% 50%;
+  }
 } 
 
 
 
 
 @media only screen and (max-width:750px){
-    .contHaus{
-    
- 
+  .contHaus{
+  
+
 width: 90%;
-        display: grid;
-        gap: 50px;
-        grid-template-columns: 100%;
-    align-items: center;
-        justify-content: center;
-      
-    }
+      display: grid;
+      gap: 50px;
+      grid-template-columns: 100%;
+  align-items: center;
+      justify-content: center;
+    
+  }
 
 }

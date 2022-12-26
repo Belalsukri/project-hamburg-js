@@ -49,7 +49,7 @@
 function getData(arr){
     let res = document.querySelector('.res');
     var proxyurl = "http://cors-anywhere.herokuapp.com/";
-    var url = "https://newsapi.org/v2/top-headlines?country=de&category=health&apiKey=15759484cfc6415e9cc3c3b64fcd889e";
+    var url = "\\\\\\\\\\\\\\\\\\\";
     fetch( proxyurl + url)
 
 .then(response => {

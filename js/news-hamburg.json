@@ -5,9 +5,9 @@
     "channel": {
        "title": "Gesundheitswirtschaft & Life Science",
        "link": [
-          "https://www.hamburg-news.hamburg/",
+          "https://www.hamburg/",
           {
-             "@href": "https://www.hamburg-news.hamburg/feeds/articles/46/",
+             "@href": "https://www.hamburg-news/",
              "@rel": "self"
           }
        ],
@@ -17,19 +17,19 @@
        "item": [
           {
              "title": "Corona-Verdachtsfälle: Hamburg richtet Infektpraxen ein",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/corona-verdachtsfaelle-hamburg-richtet-infektpraxen-ein/",
+             "link": "\\\\\\\\\\",
              "description": "10 Anlaufstellen für Patienten mit potenziellen Covid-19-Symptomen geplant. Täglich rund 3.500 Testungen in Hamburger Laboren",
              "pubDate": "Fri, 24 Apr 2020 04:00:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/corona-verdachtsfaelle-hamburg-richtet-infektpraxen-ein/",
+             "guid": "https/",
              "enclosure": {
-                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/online-marketing-higeoqjs_ie-unsplash-2.jpg",
+                "@url": "https://www.jpg",
                 "@length": "435015"
              },
              "category": "Gesundheitswirtschaft & Life Science"
           },
           {
              "title": "Ioki befördert Pflegekräfte und Patienten kostenlos",
-             "link": "https://www.hamburg-news.hamburg/de/hafen-logistik/ioki-befoerdert-pflegekraefte-und-patienten-kostenlos/",
+             "link": "\\\\\\\\\\\\\\\\\\\\\\",
              "description": "Hamburger On-Demand-Service bietet Mitarbeitern von Arztpraxen und Pflegeeinrichtungen sowie Patienten in Stadtteilen kostenlose Nutzung",
              "pubDate": "Thu, 23 Apr 2020 10:00:00 +0000",
              "guid": "https://www.hamburg-news.hamburg/de/hafen-logistik/ioki-befoerdert-pflegekraefte-und-patienten-kostenlos/",
@@ -41,22 +41,22 @@
           },
           {
              "title": "Mobilität: HAW Hamburg zeichnet Ideen aus",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/mobilitaet-haw-hamburg-zeichnet-ideen-aus/",
+             "link": "\\\\\\\\\\\\\\\\",
              "description": "Wettbewerb zum 50-jährigen Bestehen der Hochschule. Top 3 Zukunftsideen gekürt – vom Tech-Blindenführerhund bis zur Berufsorientierung per VR",
              "pubDate": "Mon, 20 Apr 2020 11:30:00 +0000",
              "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/mobilitaet-haw-hamburg-zeichnet-ideen-aus/",
              "enclosure": {
-                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/1_campus_berliner_tor_haw_hamburg_jonas_fischerhaw_hamburg.jpg",
+                "@url": "https://www.hambg",
                 "@length": "5640887"
              },
              "category": "Gesundheitswirtschaft & Life Science"
           },
           {
              "title": "Mit Nanobiotechnologie gegen Umweltverschmutzung",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/mit-nanobiotechnologie-gegen-umweltverschmutzung/",
+             "link": "\\\\\\\\\\\\\\\\",
              "description": "Nandatec aus Lübeck bietet mithilfe von biokompatiblen Nanopartikeln eine Alternative zu toxischen Mitteln. Ein Zufall brachte die Gründerin auf die Idee",
              "pubDate": "Mon, 20 Apr 2020 04:00:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/mit-nanobiotechnologie-gegen-umweltverschmutzung/",
+             "guid": "https://wg/",
              "enclosure": {
                 "@url": "https://www.hamburg-news.hamburg/site_media/uploads/img_0444.jpg",
                 "@length": "238584"
@@ -65,18 +65,18 @@
           },
           {
              "title": "About You kündigt Verkauf von textilen Schutzmasken an",
-             "link": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/about-you-kuendigt-verkauf-von-textilen-schutzmasken/",
+             "link": "\\\\\\\\\\\\\\\",
              "description": "Ab April will das Fashion-Tech-Startup Behelfsmasken zum Selbstkostenpreis anbieten",
              "pubDate": "Thu, 16 Apr 2020 10:00:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/medien-it-kreativwirtschaft/about-you-kuendigt-verkauf-von-textilen-schutzmasken/",
+             "guid": "https://w/",
              "enclosure": {
-                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/adam_niesciorukunsplash.jpg",
+                "@url": "https://www.hajpg",
                 "@length": "824703"
              }
           },
           {
              "title": "Uni Hamburg: europaweite Studie zur Corona-Pandemie gestartet",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/uni-hamburg-europaweite-studie-zur-corona-pandemie-gestartet/",
+             "link": "\\\\\\\\\\\\\\\\\\\",
              "description": "Kooperationsprojekt zur Akzeptanz von Präventionsmaßnahmen, Impfbereitschaft und Falschinformationen. Repräsentative Befragung von 7.000 Europäern",
              "pubDate": "Wed, 15 Apr 2020 04:00:00 +0000",
              "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/uni-hamburg-europaweite-studie-zur-corona-pandemie-gestartet/",
@@ -88,10 +88,10 @@
           },
           {
              "title": "Hamburgs Datenschutzbeauftragter veröffentlicht Corona-FAQ",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/sarah-red-hamburgs-datenschutzbeauftragter-veroeffentlicht-corona-faq/",
+             "link": "\\\\\\\\\\\\\\/",
              "description": "Covid-19 im Unternehmenskontext, kontaktlose Kommunikation, Verarbeitung personenbezogener Corona-Daten – FAQ des HmbBfDI gibt Antworten",
              "pubDate": "Thu, 09 Apr 2020 11:30:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/sarah-red-hamburgs-datenschutzbeauftragter-veroeffentlicht-corona-faq/",
+             "guid": "https://",
              "enclosure": {
                 "@url": "https://www.hamburg-news.hamburg/site_media/uploads/helloquence-5fnmwej4taa-unsplash-2.jpg",
                 "@length": "323510"
@@ -100,10 +100,10 @@
           },
           {
              "title": "So will Hamburg die Infektionsforschung vorantreiben",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/so-will-hamburg-die-infektionsforschung-vorantreiben/",
+             "link": "\\\\\\\\\\\\\\/",
              "description": "Hamburgs Wissenschaft leistet mit Forschung einen wichtigen Beitrag im Kampf gegen das Coronavirus. Forschungscluster in Vorbereitung",
              "pubDate": "Tue, 07 Apr 2020 04:00:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/so-will-hamburg-die-infektionsforschung-vorantreiben/",
+             "guid": "https:///",
              "enclosure": {
                 "@url": "https://www.hamburg-news.hamburg/site_media/uploads/_uni_hamburgsukhina.png",
                 "@length": "1783026"
@@ -111,41 +111,41 @@
           },
           {
              "title": "NIT: Rotary vergibt Green-Tech-Stipendium",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/nit-rotary-vergibt-green-tech-stipendium/",
+             "link": "\\\\\\\\\\\\\\\\\",
              "description": "Master-Teilstipendium am Northern Institute of Technology Management soll Gründungsidee im Bereich Green Technologie vorangetrieben",
              "pubDate": "Mon, 06 Apr 2020 04:00:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/nit-rotary-vergibt-green-tech-stipendium/",
+             "guid": "\\\\\\\\\\\\",
              "enclosure": {
-                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/nit-northern-institute-of-technology-management-hamburg-1-nit-community.jpg",
+                "@url": "https://www.y.jpg",
                 "@length": "777298"
              },
              "category": "Gesundheitswirtschaft & Life Science"
           },
           {
              "title": "Beiersdorf legt internationales Hilfsprogramm in Millionenhöhe auf",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/beiersdorf-legt-internationales-hilfsprogramm-millionenhoehe-auf/",
+             "link": "\\\\\\\\\\\\\\\\",
              "description": "Hamburger Konzern unterstützt den globalen Kampf gegen COVID-19 mit 50 Millionen Euro",
              "pubDate": "Thu, 02 Apr 2020 04:00:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/beiersdorf-legt-internationales-hilfsprogramm-millionenhoehe-auf/",
+             "guid": "\f/",
              "enclosure": {
-                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/beiersdorf_ag_fMfbAD2.jpg",
+                "@url": "\\\\\\\\\\",
                 "@length": "419575"
              }
           },
           {
              "title": "Unternehmen helfen: Engagement in Zeiten von Corona",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/unternehmen-helfen-engagement-zeiten-von-corona/",
+             "link": "\\\\\\\\\\\\\\\\\\",
              "description": "Beatmungsgeräte, Atemschutzmasken oder Fiebermesskamera – Hamburger Unternehmen erhöhen ihre Produktion oder entwickeln Hilfsprodukte",
              "pubDate": "Wed, 01 Apr 2020 07:00:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/unternehmen-helfen-engagement-zeiten-von-corona/",
+             "guid": "\\\\\\\\\\\\\\",
              "enclosure": {
-                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/intensivbeatmungsgeraet_draeger_evita_v300__1phhiQ7.jpg",
+                "@url": "https://wwwhiQ7.jpg",
                 "@length": "362047"
              }
           },
           {
              "title": "Corona-Soforthilfe kann beantragt werden",
-             "link": "https://www.hamburg-news.hamburg/de/handel-finanzen/corona-soforthilfe-kann-beantragt-werden/",
+             "link": "\\\\\\\\\\\\\/",
              "description": "Hamburger Unternehmer können Anträge stellen. Formulare auf der Internetseite der IFB. Kontakte zur Corona-Soforthilfe für Unternehmen aus der Metropolregion",
              "pubDate": "Tue, 31 Mar 2020 07:11:45 +0000",
              "guid": "https://www.hamburg-news.hamburg/de/handel-finanzen/corona-soforthilfe-kann-beantragt-werden/",
@@ -156,19 +156,19 @@
           },
           {
              "title": "UKE ruft Medizinstudierende zur Mithilfe auf",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/uke-ruft-medizinstudierende-zur-mithilfe-auf/",
+             "link": "\\\\\\\\\\\\\\\\\",
              "description": "Studierende sollen Pflegedienste in der Patientenversorgung unterstützen, um stark beanspruchte Mitarbeiter zu entlasten",
              "pubDate": "Thu, 26 Mar 2020 12:30:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/uke-ruft-medizinstudierende-zur-mithilfe-auf/",
+             "guid": "https:///",
              "enclosure": {
-                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/vorlesung_campus_lehre_5-min.jpg",
+                "@url": "http\",
                 "@length": "477258"
              },
              "category": "Gesundheitswirtschaft & Life Science"
           },
           {
              "title": "Beiersdorf produziert 500 Tonnen Desinfektionsmittel",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/beiersdorf-produziert-500-tonnen-desinfektionsmittel/",
+             "link": "\\\\\\\\\\\\\\\\",
              "description": "Der Hamburger Konzern zeigt soziale Verantwortung und stellt 500 Tonen des medizinischen Handdesinfektionsmittels zur Verfügung",
              "pubDate": "Wed, 25 Mar 2020 05:00:00 +0000",
              "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/beiersdorf-produziert-500-tonnen-desinfektionsmittel/",
@@ -179,22 +179,22 @@
           },
           {
              "title": "Zehn-Punkte-Programm: Hamburg spannt Schutzschirm",
-             "link": "https://www.hamburg-news.hamburg/de/handel-finanzen/zehn-punkte-programm-hamburg-spannt-schutzschirm/",
+             "link": "\\\\\\\\\\\\/",
              "description": "Das Maßnahmenpaket sieht unter anderem schnelle und unbürokratische Hilfen für Coronavirus-geschädigte Unternehmen vor. Das ist der Plan",
              "pubDate": "Tue, 24 Mar 2020 12:00:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/handel-finanzen/zehn-punkte-programm-hamburg-spannt-schutzschirm/",
+             "guid": "\/",
              "enclosure": {
-                "@url": "https://www.hamburg-news.hamburg/site_media/uploads/15419__stadt_hamburg_sternfahrt-178_variant_1.jpg",
+                "@url": "\\",
                 "@length": "1192684"
              },
              "category": "Handel & Finanzen"
           },
           {
              "title": "Senat: Corona-Verfügungen sollen sofort in Kraft treten",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/senat-corona-verfuegungen-sollen-zukuenftig-sofort-kraft-treten/",
+             "link": "\\\\\\\\\\n/",
              "description": "Schnellere Umsetzung von Maßnahmen. Hamburger Senat will Allgemeinverfügungen im Internet veröffentlichen",
              "pubDate": "Fri, 20 Mar 2020 09:29:29 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/senat-corona-verfuegungen-sollen-zukuenftig-sofort-kraft-treten/",
+             "guid": "\\\\\\\\\\\",
              "enclosure": {
                 "@url": "https://www.hamburg-news.hamburg/site_media/uploads/abu_09_004.jpg",
                 "@length": "2855170"
@@ -206,7 +206,7 @@
              "link": "https://www.hamburg-news.hamburg/de/handel-finanzen/coronavirus-hamburger-unternehmen-sehen-existenz-gefaehrdet/",
              "description": "Handelskammer spricht sich für Sonderfonds aus. Hamburger Wirtschaftssenat sichert Unterstützung zu. Das sind die größten Sorgen der Unternehmen",
              "pubDate": "Tue, 17 Mar 2020 05:00:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/handel-finanzen/coronavirus-hamburger-unternehmen-sehen-existenz-gefaehrdet/",
+             "guid": "\\\\\\\\\\t/",
              "enclosure": {
                 "@url": "https://www.hamburg-news.hamburg/site_media/uploads/handelskammer-quer-data-min.jpg",
                 "@length": "1304462"
@@ -215,10 +215,10 @@
           },
           {
              "title": "meinRezept.online entwickelt Corona-Selbsthilfe-Tool",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/meinrezeptonline-entwickelt-corona-selbsthilfe-tool/",
+             "link": "\\\\\\\\\l/",
              "description": "Mithilfe eines Fragebogens und einem Abstrich-Kit können Patienten sich quasi Zuhause auf das Virus testen und das Ansteckungsrisiko in Arztpraxen umgehen",
              "pubDate": "Mon, 16 Mar 2020 10:23:17 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/meinrezeptonline-entwickelt-corona-selbsthilfe-tool/",
+             "guid": "\\\\\\\\\\\\\\\/",
              "enclosure": {
                 "@url": "https://www.hamburg-news.hamburg/site_media/uploads/cdc-w9keokhajkw-unsplash.jpg",
                 "@length": "6137141"
@@ -227,10 +227,10 @@
           },
           {
              "title": "KLU ist die beliebteste Universität Deutschlands",
-             "link": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/klu-ist-die-beliebteste-universitaet-deutschlands/",
+             "link": "\\\\\\\\\\\\\/",
              "description": "Das Hochschulbewertungsportal ‚StudyCheck‘ rankt die Hamburger Kühne Logistics University auf Platz 1 der beliebtesten Universitäten Deutschlands",
              "pubDate": "Thu, 12 Mar 2020 16:04:16 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/gesundheitswirtschaft-und-life-science/klu-ist-die-beliebteste-universitaet-deutschlands/",
+             "guid": "}\\\\\\\\ds/",
              "enclosure": {
                 "@url": "https://www.hamburg-news.hamburg/site_media/uploads/klu_bachelor_2019_treppe_cs87465-800px.jpg",
                 "@length": "80721"
@@ -239,10 +239,10 @@
           },
           {
              "title": "Coronavirus: So betroffen sind Hamburger Unternehmen",
-             "link": "https://www.hamburg-news.hamburg/de/handel-finanzen/coronavirus-so-betroffen-sind-hamburger-untenehmen/",
+             "link": "\\\\\\\\\\\\\\\/",
              "description": "Aktuelles Stimmungsbild der Hamburger Wirtschaft - insbesondere Groß- und Außenhandel spürt die Folgen. Handelskammer mit umfangreichem Info-Angebot",
              "pubDate": "Wed, 11 Mar 2020 04:00:00 +0000",
-             "guid": "https://www.hamburg-news.hamburg/de/handel-finanzen/coronavirus-so-betroffen-sind-hamburger-untenehmen/",
+             "guid": "\\\\\\\n/",
              "enclosure": {
                 "@url": "https://www.hamburg-news.hamburg/site_media/uploads/ihm_03_011.jpg",
                 "@length": "1780786"

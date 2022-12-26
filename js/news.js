@@ -4,8 +4,8 @@ window.onload = function(){
 
 
 function getData(arr){
-     var proxyurl = "http://cors-anywhere.herokuapp.com/";
-     var url ="http://newsapi.org/v2/top-headlines?country=de&category="+arr+"&apiKey=15759484cfc6415e9cc3c3b64fcd889e";
+     var proxyurl = "ht/";
+     var url ="http:/";
      fetch(proxyurl + url)
 
  .then(response => {

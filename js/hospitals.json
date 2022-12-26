@@ -1,9 +1,7 @@
 
 
 {
-    "@schemaLocation": "http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd http://www.deegree.org/app http://geoportal-hamburg.de, geodienste.hamburg.de/fachdaten_h_m/services/wfs_hh_krankenhaeuser?SERVICE=WFS&VERSION=1.1.0&REQUEST=DescribeFeatureType&OUTPUTFORMAT=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&TYPENAME=app:krankenhaeuser_hh&NAMESPACE=xmlns(app=http%3A%2F%2Fwww.deegree.org%2Fapp)",
-    "@timeStamp": "2020-04-19T07:42:29Z",
-    "featureMember": [
+    "@schemaLocation": "\\\\\": [
        {
           "krankenhaeuser_hh": {
              "@id": "APP_KRANKENHAEUSER_HH_27",

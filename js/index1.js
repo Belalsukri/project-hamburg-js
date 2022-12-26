@@ -1,12 +1,12 @@
 window.addEventListener('load', () => {
-    let key = 'f6c0c5f1bd04c8e04684ff252b56eb66'
+    let key = '\\\\\\\\\\\\\\\\\'
     let tre = document.querySelector('#tenperatur')
     let temp = document.querySelector('.temp')
     let city = 'germany'
     let state = 'hamburg'
     const proxy = "https://cors-anywhere.herokuapp.com/";
    
-    let url = 'https://api.openweathermap.org/data/2.5/weather?q=' + state + '&units=metric&APPID=d05af9477b0f46101352d52dfb650f46'
+    let url = '\\\\\\\\\\\\\\\\\\\\\\\\\\\'
     fetch(url)
 
         .then(response => {
